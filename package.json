@@ -1,0 +1,33 @@
+{
+  "name": "toybox",
+  "version": "1.0.0",
+  "description": "An on going collection of programming practice",
+  "private": true,
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaRenee44/ToyBox.git"
+  },
+  "author": "Anastasia Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaRenee44/ToyBox/issues"
+  },
+  "homepage": "https://github.com/AnaRenee44/ToyBox#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "jasmine-core": "^4.1.1",
+    "karma": "^6.3.19",
+    "karma-jasmine": "^5.0.0",
+    "mocha": "^10.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-mocha": "^2.0.1",
+    "lodash": "^4.17.21"
+  }
+}
